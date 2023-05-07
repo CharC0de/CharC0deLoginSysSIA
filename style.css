@@ -1,0 +1,56 @@
+
+#currUserPfp{
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.info{
+    border-color: var(--bs-body-color);
+    outline: none;
+   
+}
+.info:focus{
+    outline: none;
+}
+
+
+#mainArea{
+    height: 80vh;
+    width: 100%;
+}
+
+
+
+@media (min-width: 575.98px) {  
+    #mainArea{
+        width: 91.67%;
+    }
+}
+
+
+@media (min-width: 767.98px) {  
+    #mainArea{
+        width: 75%;
+    }
+}
+
+
+@media (min-width: 991.98px) { 
+    #mainArea{
+        width: 50%;
+    }
+}
+
+
+@media (min-width: 1199.98px) { 
+    #mainArea{
+        width: 33.33%;
+    }
+}
+
+
+@media (min-width: 1399.98px) { 
+    #mainArea{
+        width: 25%;
+    }
+}
